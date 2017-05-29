@@ -35,3 +35,4 @@ vignettes/*.pdf
 # Prevent upload of data files
 *.xlsx
 *.xls
+*.Rproj
