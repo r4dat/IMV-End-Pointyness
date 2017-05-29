@@ -58,7 +58,7 @@ func_endedness <- function(df,columns){
 }
 
 # Read in File
-MIDUS_Response_Bias <- read_excel("~/imv_end_pointyness/MIDUS_Response Bias.xlsx",sheet = "FullData")
+MIDUS_Response_Bias <- read_excel("~/IMV-End-Pointyness/MIDUS_Response Bias.xlsx",sheet = "FullData")
 
 # Assume all -1, 8, and "." are NAs.
 MIDUS_Response_Bias[MIDUS_Response_Bias==-1] = NA
